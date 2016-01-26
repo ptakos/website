@@ -132,11 +132,31 @@ img {
     bottom:25px;
     right:20px;
     background:rgba(66, 139, 202, 0.75);
-    width:86%;
+    width:93%;
     height:auto;
     padding:2%;
     display: none;
     text-align:center;
     color:#fff !important;
     z-index:2;
+}
+#success_message{ display: none;}
+legend {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: inherit;
+    color: #333;
+    border: 0;
+    border-bottom: 1px solid #e5e5e5;
+    text-align: center;
+}
+.modal-responsive{
+	border-radius: 0%;
+	display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
 }
