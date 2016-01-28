@@ -5,7 +5,7 @@
 	position: relative;
 }
 .message-item .message-inner {
-	background: #f7f9fa;
+	background: #eee;
 	border: 1px solid #eff2f3;
 	border-radius: 3px;
 	padding: 10px;
@@ -132,7 +132,7 @@ img {
     bottom:25px;
     right:20px;
     background:rgba(66, 139, 202, 0.75);
-    width:93%;
+    width:100%;
     height:auto;
     padding:2%;
     display: none;
@@ -159,4 +159,8 @@ legend {
     max-width: 100%;
     height: auto;
     margin: 0 auto;
+}
+
+.icon-background5 {
+    color: #eee;
 }
