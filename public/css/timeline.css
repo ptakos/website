@@ -127,7 +127,9 @@ img {
 	padding-left: 15px;
 	padding-right: 15px;
 }
+
 .caption {
+/*
     position:absolute;
     bottom:25px;
     right:20px;
@@ -139,7 +141,15 @@ img {
     text-align:center;
     color:#fff !important;
     z-index:2;
+*/
+    width:100%;
+    height:auto;
+    padding: 1%;
+    text-align:center;
+    color: #000 !important;
+    z-index:2;
 }
+
 #success_message{ display: none;}
 legend {
     display: block;
@@ -161,6 +171,16 @@ legend {
     margin: 0 auto;
 }
 
-.icon-background5 {
+.icon-background1 {
     color: #eee;
+}
+
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    padding: 10px;
+}
+
+.nav-tabs {
+    margin-bottom: 0;
 }
