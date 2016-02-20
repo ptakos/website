@@ -1,0 +1,384 @@
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-width : 0)
+and (max-width : 767px) {
+
+  .contact .info { 
+    text-align: center;
+}
+
+.resume a{
+    margin-left: 48px;
+}
+
+.contact .info::after {
+
+}
+ 
+ .types{
+  display: none;
+ }
+
+ .jumbotron { 
+    text-align: center;
+    padding: 10px;
+    position: relative;
+}
+
+.my-img{
+    margin-top: 0;
+}
+
+.nav-tabs.fixed {
+    position: relative;
+  }
+
+  .nav-tabs.fixed::before{
+    display: none;
+  }
+
+  .main-body{
+    top:0;
+    padding:10px;
+  }
+
+
+  .message-item .message-inner {
+    background: #eee;
+    border: 1px solid #eff2f3;
+    border-radius: 3px;
+    padding: 0 12px;
+    position: relative;
+    width: 100%;
+    float: right;
+    margin-bottom: 0px;
+    margin-top: 171px;
+    border-bottom: 10px solid #890000;
+    padding-top: 26px;
+    padding-bottom: 30px;
+}
+
+
+.message-item{
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.message-item:before {
+    background: #191A2C;
+    border-radius: 2px;
+    bottom: -28px;
+    content: "";
+    height: 150px;
+    left: 30px;
+    position: absolute;
+    width: 10px;
+    top: 52px;
+    box-shadow: 8px 15px 9px -4px;
+    right: 0;
+}
+
+.message-item:after {
+    content: "";
+    left: 30px;
+    position: absolute;
+    top: 52px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 40.5px 0 40.5px 120px;
+    border-color: transparent transparent transparent #890000;
+    margin-left: 10px;
+}
+
+.post-time {
+    position: absolute;
+    left: 34px;
+    top: 73px;
+    z-index: 9;
+    font-size: 12px;
+    color: white;
+    margin-left: 25px;
+}
+
+.main-content{
+  padding: 0;
+}
+
+#interests .col-md-12 {
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: -10px;
+    width: 100%;
+    margin-top: 95px;
+    float: none;
+}
+
+.custom-bullet {
+    margin-top: 26px;
+    padding: 0;
+     
+}
+
+.mobile{
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+z-index: 9;
+left:0;
+top:0;
+}
+
+.mobile i {
+    float: right;
+    margin-right: 29px;
+    font-size: 35px;
+}
+
+.contact .types div:first-of-type {
+    margin-left: 0;
+}
+
+.contact .types div {
+    float: left;
+    font-size: 16px;
+    padding: 17px 0;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #990000;
+}
+
+.contact .types div:last-of-type {
+    position: relative;
+    right: 0;
+    height: 55px;
+    background: #990000;
+    line-height: 18px;
+    padding-left: 0;
+}
+
+.contact .types {
+    overflow: hidden;
+    padding: 0;
+}
+
+.contact .types div i {
+    color: #990000;
+    margin-left: -10px;
+}
+
+.contact .types div:last-of-type i {
+    color: white;
+    float: right;
+    background: #890000;
+    padding: 19px;
+    margin-top: -18px;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+    
+}
+
+
+/* Tablets (portrait and landscape) ----------- */
+@media only screen
+and (min-width : 768px)
+and (max-width : 1023px) {
+
+  .contact .info { 
+    text-align: center;
+}
+
+.container{
+    width:100%
+}
+
+.resume a{
+    margin-left: 64px;
+}
+
+.contact .info::after {
+
+}
+ 
+ .types{
+  display: none;
+ }
+
+
+ .jumbotron { 
+    text-align: center;
+    padding: 10px;
+    position: relative;
+}
+
+.my-img{
+    margin-top: 0;
+}
+
+  .main-body{
+    top:0;
+    padding:10px;
+  }
+
+
+  .message-item .message-inner {
+    background: #eee;
+    border: 1px solid #eff2f3;
+    border-radius: 3px;
+    padding: 0 12px;
+    position: relative;
+    width: 100%;
+    float: right;
+    margin-bottom: 0px;
+    margin-top: 171px;
+    border-bottom: 10px solid #890000;
+    padding-top: 26px;
+    padding-bottom: 30px;
+}
+
+
+.message-item{
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.message-item:before {
+    background: #191A2C;
+    border-radius: 2px;
+    bottom: -28px;
+    content: "";
+    height: 150px;
+    left: 30px;
+    position: absolute;
+    width: 10px;
+    top: 52px;
+    box-shadow: 8px 15px 9px -4px;
+    right: 0;
+}
+
+.message-item:after {
+    content: "";
+    left: 30px;
+    position: absolute;
+    top: 52px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 40.5px 0 40.5px 120px;
+    border-color: transparent transparent transparent #890000;
+    margin-left: 10px;
+}
+
+.post-time {
+    position: absolute;
+    left: 34px;
+    top: 73px;
+    z-index: 9;
+    font-size: 12px;
+    color: white;
+    margin-left: 25px;
+}
+
+.main-content{
+  padding: 0;
+}
+
+#interests .col-md-12 {
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: -10px;
+    width: 100%;
+    margin-top: 95px;
+    float: none;
+}
+
+.custom-bullet {
+    margin-top: 26px;
+    padding: 0;
+     
+}
+
+.mobile{
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+z-index: 9;
+left:0;
+top:0;
+}
+
+.mobile i {
+    float: right;
+    margin-right: 29px;
+    font-size: 35px;
+}
+
+.contact .types div:first-of-type {
+    margin-left: 0;
+}
+
+.contact .types div {
+    float: left;
+    font-size: 16px;
+    padding: 17px 0;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #990000;
+}
+
+.contact .types div:last-of-type {
+    position: relative;
+    right: 0;
+    height: 55px;
+    background: #990000;
+    line-height: 18px;
+    padding-left: 0;
+}
+
+.contact .types {
+    overflow: hidden;
+    padding: 0;
+}
+
+.contact .types div i {
+    color: #990000;
+    margin-left: -10px;
+}
+
+.contact .types div:last-of-type i {
+    color: white;
+    float: right;
+    background: #890000;
+    padding: 19px;
+    margin-top: -18px;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+}
+
+/* Tablets (portrait and landscape) ----------- */
+@media only screen
+and (min-width : 1024px)
+and (max-width : 1280px){
+
+#projects .col-md-4 {
+    border: 15px solid #EAEAEA;
+    background: #E6E6E6;
+    padding: 30px;
+}
+
+}
+
+/* HDPI screen (portrait and landscape) ----------- */
+@media only screen
+and (min-width : 1281px) {
+    .contact  .types div:first-of-type{
+    margin-left: 54px;
+}
+}
